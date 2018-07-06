@@ -16,8 +16,7 @@
         Tatu Toivonen
     </author>
 	
-	
-<plugin name="cordova-plugin-whitelist" version="1" />	
+		
 	<!-- required plugins go here -->
 	     
 
