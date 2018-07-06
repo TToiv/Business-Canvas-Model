@@ -5,6 +5,19 @@
 <link rel="stylesheet" type="text/css" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style> 
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+</style>
 </head>
 <body>
 <div data-role="page" id="index">
@@ -41,7 +54,9 @@
   <div data-role="main" class="ui-content">
     <p>For who are you creating value? <br />
       Who are your most important customer?</p>
-    <input type="submit" name="PlanBox" size="40" >   
+<form>
+  <textarea></textarea>
+</form>  
               
     <a href="#index">Return to Index</a>
   </div>
